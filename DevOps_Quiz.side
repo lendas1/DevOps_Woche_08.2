@@ -1,0 +1,1104 @@
+{
+  "id": "740cb6a6-0165-4b28-ac7a-785d87071f5d",
+  "version": "2.0",
+  "name": "DevOps_Quiz",
+  "url": "https://de.pons.com",
+  "tests": [{
+    "id": "e074e83a-c821-4ebe-b6af-54ccf1d82f6d",
+    "name": "Assert Weiter Element",
+    "commands": [{
+      "id": "5fc6c085-7b0b-4067-81be-efc33039773d",
+      "comment": "",
+      "command": "open",
+      "target": "/p/wissensecke/quizzes/hauptstaedte-europa-quiz",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ddae393-bf6a-4fd0-a34b-fd4aef45f8ea",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3980c63-4fe7-4f1b-bda6-4458a82ec065",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» Quiz starten",
+      "targets": [
+        ["linkText=» Quiz starten", "linkText"],
+        ["css=.call2action_primary", "css:finder"],
+        ["xpath=//a[contains(text(),'» Quiz starten')]", "xpath:link"],
+        ["xpath=//div[@id='article-2342']/div/div[3]/form/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[114]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'» Quiz starten')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25b7a30c-49e3-4f37-afce-914e645545ed",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.call2action_primary",
+      "targets": [
+        ["css=.call2action_primary", "css:finder"],
+        ["xpath=//a[contains(text(),'» Quiz starten')]", "xpath:link"],
+        ["xpath=//div[@id='article-2342']/div/div[3]/form/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[114]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'» Quiz starten')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52270028-a4a8-4430-8eb4-ac47569a8eb1",
+      "comment": "",
+      "command": "click",
+      "target": "id=lbl_quiz_2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f00f349a-e242-4478-8397-b18fe4a44341",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30410 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'» weiter')]", "xpath:link"],
+        ["xpath=//p[@id='next_30410']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[115]", "xpath:href"],
+        ["xpath=//div[3]/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'» weiter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c2a28e5-1a6e-4bb8-9ba5-fad9e7a99469",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30411 #lbl_quiz_1",
+      "targets": [
+        ["css=#box_30411 #lbl_quiz_1", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_1'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30411']/div/span/label", "xpath:idRelative"],
+        ["xpath=//div[4]/div/span/label", "xpath:position"],
+        ["xpath=//label[contains(.,'auf Zypern')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a925347-352d-47ab-950e-575527aee056",
+      "comment": "Überprüfung um ein \"weiter\" Element vorhanden ist",
+      "command": "assertElementPresent",
+      "target": "linkText=» zurück",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30410 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'» weiter')]", "xpath:link"],
+        ["xpath=//p[@id='next_30410']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[115]", "xpath:href"],
+        ["xpath=//div[3]/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'» weiter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dcebc63-2912-4487-b280-082cb1cce53b",
+      "comment": "Überprüfung Element Antwortmöglichkeit",
+      "command": "verifyElementPresent",
+      "target": "css=.active > #lbl_quiz_1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bdec8a28-9f18-4571-8928-c62065fe2f74",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30411 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[2]", "xpath:link"],
+        ["xpath=//p[@id='next_30411']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[116]", "xpath:href"],
+        ["xpath=//div[4]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af7a9c29-af9e-402d-b9be-8f1597f32d6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30412 #lbl_quiz_4",
+      "targets": [
+        ["css=#box_30412 #lbl_quiz_4", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_4'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30412']/div/span[4]/label", "xpath:idRelative"],
+        ["xpath=//div[5]/div/span[4]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Warschau')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7df1c304-ba40-4aef-a3b0-a9d0fc2dada3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30412 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[3]", "xpath:link"],
+        ["xpath=//p[@id='next_30412']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[117]", "xpath:href"],
+        ["xpath=//div[5]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5096c3a6-ad6d-441d-9a94-3096ca334023",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30413 #lbl_quiz_4",
+      "targets": [
+        ["css=#box_30413 #lbl_quiz_4", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_4'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30413']/div/span[4]/label", "xpath:idRelative"],
+        ["xpath=//div[6]/div/span[4]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'nach Georgien')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e10f4ebc-0fc7-40c4-b8ca-c319df12b97e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30413 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[4]", "xpath:link"],
+        ["xpath=//p[@id='next_30413']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[118]", "xpath:href"],
+        ["xpath=//div[6]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee0c5083-870d-4a00-9e1d-b51c133e071c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30414 #lbl_quiz_2",
+      "targets": [
+        ["css=#box_30414 #lbl_quiz_2", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_2'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30414']/div/span[2]/label", "xpath:idRelative"],
+        ["xpath=//div[7]/div/span[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Bern')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e02e8f65-1b4f-470f-93e6-eb2362859902",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30414 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[5]", "xpath:link"],
+        ["xpath=//p[@id='next_30414']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[119]", "xpath:href"],
+        ["xpath=//div[7]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97b3d12d-3fae-4879-9d55-f3a6d5db623e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30415 #lbl_quiz_1",
+      "targets": [
+        ["css=#box_30415 #lbl_quiz_1", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30415']/div/span/label", "xpath:idRelative"],
+        ["xpath=//div[8]/div/span/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Zagreb')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d844849-d8a6-446e-a03d-ecf63d861b38",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30415 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[6]", "xpath:link"],
+        ["xpath=//p[@id='next_30415']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[120]", "xpath:href"],
+        ["xpath=//div[8]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42952189-44dd-4bdd-9991-c8b9d11560dd",
+      "comment": "Targettext: Quiz – Hauptstädte in Europa",
+      "command": "verifyText",
+      "target": "css=h1:nth-child(1)",
+      "targets": [
+        ["css=h1:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='article-2342']/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Quiz – Hauptstädte in Europa')]", "xpath:innerText"]
+      ],
+      "value": "Quiz – Hauptstädte in Afrika"
+    }]
+  }, {
+    "id": "4ebeac81-bc07-400a-b3fe-c9607e4df964",
+    "name": "Verify Antwort Element",
+    "commands": [{
+      "id": "177de297-a747-45fe-a0f3-350ccf685b5e",
+      "comment": "",
+      "command": "open",
+      "target": "/p/wissensecke/quizzes/hauptstaedte-europa-quiz",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "889828a1-fb39-455d-b185-4da43e6e43ef",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a62afbef-3748-4868-8515-559c91d48b29",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» Quiz starten",
+      "targets": [
+        ["linkText=» Quiz starten", "linkText"],
+        ["css=.call2action_primary", "css:finder"],
+        ["xpath=//a[contains(text(),'» Quiz starten')]", "xpath:link"],
+        ["xpath=//div[@id='article-2342']/div/div[3]/form/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[114]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'» Quiz starten')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcff889d-fba2-4cc6-ba48-69e095f6504d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.call2action_primary",
+      "targets": [
+        ["css=.call2action_primary", "css:finder"],
+        ["xpath=//a[contains(text(),'» Quiz starten')]", "xpath:link"],
+        ["xpath=//div[@id='article-2342']/div/div[3]/form/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[114]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'» Quiz starten')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1bd7f79-6d0c-4116-9de7-5cd0ac943ceb",
+      "comment": "",
+      "command": "click",
+      "target": "id=lbl_quiz_2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e332f4e9-dfc2-4d0b-9d1d-f1e29230c7a9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30410 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'» weiter')]", "xpath:link"],
+        ["xpath=//p[@id='next_30410']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[115]", "xpath:href"],
+        ["xpath=//div[3]/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'» weiter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df645b25-7a8d-4a7d-acd4-4e77de7baee4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30411 #lbl_quiz_1",
+      "targets": [
+        ["css=#box_30411 #lbl_quiz_1", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_1'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30411']/div/span/label", "xpath:idRelative"],
+        ["xpath=//div[4]/div/span/label", "xpath:position"],
+        ["xpath=//label[contains(.,'auf Zypern')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bc2a214-66fb-44cb-ade4-3b2e63e45241",
+      "comment": "Überprüfung Element Antwortmöglichkeit",
+      "command": "verifyElementPresent",
+      "target": "css=.active > #lbl_quiz_1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b652f82-dffd-4619-a9d1-4500b3a1d37c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30411 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[2]", "xpath:link"],
+        ["xpath=//p[@id='next_30411']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[116]", "xpath:href"],
+        ["xpath=//div[4]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd58ee15-9d32-426a-a217-c84a27f927d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30412 #lbl_quiz_4",
+      "targets": [
+        ["css=#box_30412 #lbl_quiz_4", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_4'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30412']/div/span[4]/label", "xpath:idRelative"],
+        ["xpath=//div[5]/div/span[4]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Warschau')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9823231-af3f-4c40-ae2e-009fc41ba533",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30412 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[3]", "xpath:link"],
+        ["xpath=//p[@id='next_30412']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[117]", "xpath:href"],
+        ["xpath=//div[5]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b01e68e-0e7a-4714-859b-77474577bf7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30413 #lbl_quiz_4",
+      "targets": [
+        ["css=#box_30413 #lbl_quiz_4", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_4'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30413']/div/span[4]/label", "xpath:idRelative"],
+        ["xpath=//div[6]/div/span[4]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'nach Georgien')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "918aef18-1817-4e72-8fc0-e10f882e11c5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30413 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[4]", "xpath:link"],
+        ["xpath=//p[@id='next_30413']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[118]", "xpath:href"],
+        ["xpath=//div[6]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6788a3f-f4be-4ad7-84e9-cd1498bf36b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30414 #lbl_quiz_2",
+      "targets": [
+        ["css=#box_30414 #lbl_quiz_2", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_2'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30414']/div/span[2]/label", "xpath:idRelative"],
+        ["xpath=//div[7]/div/span[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Bern')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e74b98f0-8c41-425b-809d-bb122c7eab05",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30414 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[5]", "xpath:link"],
+        ["xpath=//p[@id='next_30414']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[119]", "xpath:href"],
+        ["xpath=//div[7]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce503792-84a2-474d-a163-55611fa718b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30415 #lbl_quiz_1",
+      "targets": [
+        ["css=#box_30415 #lbl_quiz_1", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30415']/div/span/label", "xpath:idRelative"],
+        ["xpath=//div[8]/div/span/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Zagreb')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55377c93-e7c8-4e01-b659-c3b908d21e52",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30415 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[6]", "xpath:link"],
+        ["xpath=//p[@id='next_30415']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[120]", "xpath:href"],
+        ["xpath=//div[8]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3ff3b7cd-4d37-41cd-9e0f-6c7183cbe595",
+    "name": "Verify Überschrift Text",
+    "commands": [{
+      "id": "fef08ab6-b366-4c89-b2d5-05dfb1efb486",
+      "comment": "",
+      "command": "open",
+      "target": "/p/wissensecke/quizzes/hauptstaedte-europa-quiz",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28bf0d52-1785-4207-ad0a-f15a82e06bc0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c60f591a-b1c5-4f74-ab56-634c60da8395",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» Quiz starten",
+      "targets": [
+        ["linkText=» Quiz starten", "linkText"],
+        ["css=.call2action_primary", "css:finder"],
+        ["xpath=//a[contains(text(),'» Quiz starten')]", "xpath:link"],
+        ["xpath=//div[@id='article-2342']/div/div[3]/form/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[114]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'» Quiz starten')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "849455f2-8e75-4389-8db2-c276e58e0def",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.call2action_primary",
+      "targets": [
+        ["css=.call2action_primary", "css:finder"],
+        ["xpath=//a[contains(text(),'» Quiz starten')]", "xpath:link"],
+        ["xpath=//div[@id='article-2342']/div/div[3]/form/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[114]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'» Quiz starten')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de929a41-5981-49dd-b722-8ec434a1aaea",
+      "comment": "",
+      "command": "click",
+      "target": "id=lbl_quiz_2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7686c7e5-d4e9-4323-b704-99d6815ab896",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30410 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'» weiter')]", "xpath:link"],
+        ["xpath=//p[@id='next_30410']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[115]", "xpath:href"],
+        ["xpath=//div[3]/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'» weiter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f08f710-3697-4439-954a-fdc5f0d47db9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30411 #lbl_quiz_1",
+      "targets": [
+        ["css=#box_30411 #lbl_quiz_1", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_1'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30411']/div/span/label", "xpath:idRelative"],
+        ["xpath=//div[4]/div/span/label", "xpath:position"],
+        ["xpath=//label[contains(.,'auf Zypern')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19801990-0530-47e4-9720-2eac393b74a2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30411 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[2]", "xpath:link"],
+        ["xpath=//p[@id='next_30411']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[116]", "xpath:href"],
+        ["xpath=//div[4]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f8e8ccf-3654-471c-a532-4b767e4eb749",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30412 #lbl_quiz_4",
+      "targets": [
+        ["css=#box_30412 #lbl_quiz_4", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_4'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30412']/div/span[4]/label", "xpath:idRelative"],
+        ["xpath=//div[5]/div/span[4]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Warschau')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1561ee5-ead3-4db4-87f5-14ecfa3b6c0d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30412 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[3]", "xpath:link"],
+        ["xpath=//p[@id='next_30412']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[117]", "xpath:href"],
+        ["xpath=//div[5]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32dd9c39-306b-453d-813f-eb076c1bdea5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30413 #lbl_quiz_4",
+      "targets": [
+        ["css=#box_30413 #lbl_quiz_4", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_4'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30413']/div/span[4]/label", "xpath:idRelative"],
+        ["xpath=//div[6]/div/span[4]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'nach Georgien')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f7b8972-a6ba-430a-bf01-63e6c905a936",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30413 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[4]", "xpath:link"],
+        ["xpath=//p[@id='next_30413']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[118]", "xpath:href"],
+        ["xpath=//div[6]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d84a81c8-d35d-484a-91d0-470f85c34e19",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30414 #lbl_quiz_2",
+      "targets": [
+        ["css=#box_30414 #lbl_quiz_2", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_2'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30414']/div/span[2]/label", "xpath:idRelative"],
+        ["xpath=//div[7]/div/span[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Bern')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "daeea406-fb51-4bc2-8f2a-0867c60612d0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30414 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[5]", "xpath:link"],
+        ["xpath=//p[@id='next_30414']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[119]", "xpath:href"],
+        ["xpath=//div[7]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e36ff795-3df7-43ae-bec5-e698ea87cf76",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30415 #lbl_quiz_1",
+      "targets": [
+        ["css=#box_30415 #lbl_quiz_1", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30415']/div/span/label", "xpath:idRelative"],
+        ["xpath=//div[8]/div/span/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Zagreb')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e5a31b7-8ee1-43e5-918b-bc14665831ea",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30415 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[6]", "xpath:link"],
+        ["xpath=//p[@id='next_30415']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[120]", "xpath:href"],
+        ["xpath=//div[8]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbfbcfc4-53d0-4a6e-b219-68139351f054",
+      "comment": "Targettext: Quiz – Hauptstädte in Europa",
+      "command": "verifyText",
+      "target": "css=h1:nth-child(1)",
+      "targets": [
+        ["css=h1:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='article-2342']/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Quiz – Hauptstädte in Europa')]", "xpath:innerText"]
+      ],
+      "value": "Quiz – Hauptstädte in Afrika"
+    }]
+  }, {
+    "id": "d4670fe1-1df0-4cd9-8e1c-61bb39f78504",
+    "name": "Verify Text korrekte Antwort",
+    "commands": [{
+      "id": "45d0944b-b86a-4f5b-9bd1-6c210a9829ec",
+      "comment": "",
+      "command": "open",
+      "target": "/p/wissensecke/quizzes/hauptstaedte-europa-quiz",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7846449-5f9f-4739-b492-d396688bbeef",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4dd0ca6-167e-48d1-947f-13266cf55318",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» Quiz starten",
+      "targets": [
+        ["linkText=» Quiz starten", "linkText"],
+        ["css=.call2action_primary", "css:finder"],
+        ["xpath=//a[contains(text(),'» Quiz starten')]", "xpath:link"],
+        ["xpath=//div[@id='article-2342']/div/div[3]/form/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[114]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'» Quiz starten')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ddc6927-f243-417c-b3e9-548986ee403c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.call2action_primary",
+      "targets": [
+        ["css=.call2action_primary", "css:finder"],
+        ["xpath=//a[contains(text(),'» Quiz starten')]", "xpath:link"],
+        ["xpath=//div[@id='article-2342']/div/div[3]/form/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[114]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'» Quiz starten')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31a8b1ea-8519-4329-9212-40bd86a82810",
+      "comment": "",
+      "command": "click",
+      "target": "id=lbl_quiz_2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec1650d4-48d0-4b2f-aac6-2cf9f30f1104",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30410 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'» weiter')]", "xpath:link"],
+        ["xpath=//p[@id='next_30410']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[115]", "xpath:href"],
+        ["xpath=//div[3]/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'» weiter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "113747f5-178e-4d6b-aff3-d33b14f5ce13",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30411 #lbl_quiz_1",
+      "targets": [
+        ["css=#box_30411 #lbl_quiz_1", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_1'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30411']/div/span/label", "xpath:idRelative"],
+        ["xpath=//div[4]/div/span/label", "xpath:position"],
+        ["xpath=//label[contains(.,'auf Zypern')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa21782c-1350-4e69-bf01-57ae75d34d4d",
+      "comment": "Überprüft Text der korrekten Antwortmöglichkeit",
+      "command": "verifyText",
+      "target": "css=.active > #lbl_quiz_1",
+      "targets": [],
+      "value": "Zypern"
+    }, {
+      "id": "82561e2b-70b3-48fa-af0f-aff6410e37fe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30411 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[2]", "xpath:link"],
+        ["xpath=//p[@id='next_30411']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[116]", "xpath:href"],
+        ["xpath=//div[4]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ed14a18-c81a-4a8b-97e8-ebb6d29da7f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30412 #lbl_quiz_4",
+      "targets": [
+        ["css=#box_30412 #lbl_quiz_4", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_4'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30412']/div/span[4]/label", "xpath:idRelative"],
+        ["xpath=//div[5]/div/span[4]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Warschau')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "065238ed-9504-4c97-88ba-3302b55f2031",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30412 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[3]", "xpath:link"],
+        ["xpath=//p[@id='next_30412']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[117]", "xpath:href"],
+        ["xpath=//div[5]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e5160e1-1b72-41eb-b79e-8dc32bcb54f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30413 #lbl_quiz_4",
+      "targets": [
+        ["css=#box_30413 #lbl_quiz_4", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_4'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30413']/div/span[4]/label", "xpath:idRelative"],
+        ["xpath=//div[6]/div/span[4]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'nach Georgien')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbf4ee40-d9b8-42db-a319-3a4a33c93d9b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30413 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[4]", "xpath:link"],
+        ["xpath=//p[@id='next_30413']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[118]", "xpath:href"],
+        ["xpath=//div[6]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0a70ab0-45f9-4cde-9668-e31f15dd29b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30414 #lbl_quiz_2",
+      "targets": [
+        ["css=#box_30414 #lbl_quiz_2", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_2'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30414']/div/span[2]/label", "xpath:idRelative"],
+        ["xpath=//div[7]/div/span[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Bern')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f444c3a5-edce-4e44-9042-dea13e4a35e6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30414 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[5]", "xpath:link"],
+        ["xpath=//p[@id='next_30414']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[119]", "xpath:href"],
+        ["xpath=//div[7]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "feb9c92a-a6b8-4f99-ac87-d102be8d5dd2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30415 #lbl_quiz_1",
+      "targets": [
+        ["css=#box_30415 #lbl_quiz_1", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30415']/div/span/label", "xpath:idRelative"],
+        ["xpath=//div[8]/div/span/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Zagreb')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6a20917-3655-4acd-aa4b-2afca5341d6b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30415 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[6]", "xpath:link"],
+        ["xpath=//p[@id='next_30415']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[120]", "xpath:href"],
+        ["xpath=//div[8]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8843b293-c5a1-4c0d-bd58-d2dec8c71bbd",
+    "name": "Assert Text korrekte Antwort (1)",
+    "commands": [{
+      "id": "658aeed6-bb84-44df-bf97-109a6d84bb96",
+      "comment": "",
+      "command": "open",
+      "target": "/p/wissensecke/quizzes/hauptstaedte-europa-quiz",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f612847f-0e49-4502-b6db-ebaaf0f42545",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cec9040b-71a6-479d-9edf-2cc38b914ad1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» Quiz starten",
+      "targets": [
+        ["linkText=» Quiz starten", "linkText"],
+        ["css=.call2action_primary", "css:finder"],
+        ["xpath=//a[contains(text(),'» Quiz starten')]", "xpath:link"],
+        ["xpath=//div[@id='article-2342']/div/div[3]/form/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[114]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'» Quiz starten')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00b355e4-df72-46fb-8883-525363262bad",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.call2action_primary",
+      "targets": [
+        ["css=.call2action_primary", "css:finder"],
+        ["xpath=//a[contains(text(),'» Quiz starten')]", "xpath:link"],
+        ["xpath=//div[@id='article-2342']/div/div[3]/form/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[114]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'» Quiz starten')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93aeeabd-ebfe-44f3-afc0-d0dbf748a1e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=lbl_quiz_2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "557a79bc-16ec-4223-ac31-1efd94be3495",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30410 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'» weiter')]", "xpath:link"],
+        ["xpath=//p[@id='next_30410']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[115]", "xpath:href"],
+        ["xpath=//div[3]/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'» weiter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce1f19b0-1a3b-42b9-9cb6-e9e40e3babdb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30411 #lbl_quiz_1",
+      "targets": [
+        ["css=#box_30411 #lbl_quiz_1", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_1'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30411']/div/span/label", "xpath:idRelative"],
+        ["xpath=//div[4]/div/span/label", "xpath:position"],
+        ["xpath=//label[contains(.,'auf Zypern')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eeb10e57-ab74-49b3-b6bb-89b35f2dcc74",
+      "comment": "Überprüft den Text der richtigen Antwortmöglichkeit",
+      "command": "assertText",
+      "target": "css=.active > #lbl_quiz_1",
+      "targets": [],
+      "value": "auf Zypern"
+    }, {
+      "id": "f0257519-1ef4-4386-a83a-f9b16677835a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30411 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[2]", "xpath:link"],
+        ["xpath=//p[@id='next_30411']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[116]", "xpath:href"],
+        ["xpath=//div[4]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2446162d-5904-4226-9ff3-004ecc614e20",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30412 #lbl_quiz_4",
+      "targets": [
+        ["css=#box_30412 #lbl_quiz_4", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_4'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30412']/div/span[4]/label", "xpath:idRelative"],
+        ["xpath=//div[5]/div/span[4]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Warschau')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4107da9d-06fa-43ad-acc0-11d2113a8351",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30412 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[3]", "xpath:link"],
+        ["xpath=//p[@id='next_30412']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[117]", "xpath:href"],
+        ["xpath=//div[5]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17a5c345-ee50-4eeb-ac14-cdf217966cbc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30413 #lbl_quiz_4",
+      "targets": [
+        ["css=#box_30413 #lbl_quiz_4", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_4'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30413']/div/span[4]/label", "xpath:idRelative"],
+        ["xpath=//div[6]/div/span[4]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'nach Georgien')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fdabb64-9884-44fb-b58d-29523bef127c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30413 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[4]", "xpath:link"],
+        ["xpath=//p[@id='next_30413']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[118]", "xpath:href"],
+        ["xpath=//div[6]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4275bdd-fa43-44f3-a62b-0c1e32706242",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30414 #lbl_quiz_2",
+      "targets": [
+        ["css=#box_30414 #lbl_quiz_2", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_2'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30414']/div/span[2]/label", "xpath:idRelative"],
+        ["xpath=//div[7]/div/span[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Bern')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b51f4ffa-d3aa-480b-8010-ad19ac4646fd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30414 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[5]", "xpath:link"],
+        ["xpath=//p[@id='next_30414']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[119]", "xpath:href"],
+        ["xpath=//div[7]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d99a10ed-2801-4fc0-94a4-6fab305a7889",
+      "comment": "",
+      "command": "click",
+      "target": "css=#box_30415 #lbl_quiz_1",
+      "targets": [
+        ["css=#box_30415 #lbl_quiz_1", "css:finder"],
+        ["xpath=(//label[@id='lbl_quiz_1'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='box_30415']/div/span/label", "xpath:idRelative"],
+        ["xpath=//div[8]/div/span/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Zagreb')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5fe19fe-b843-4a76-9fa9-610d1b55d0cb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=» weiter",
+      "targets": [
+        ["linkText=» weiter", "linkText"],
+        ["css=#next_30415 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'» weiter')])[6]", "xpath:link"],
+        ["xpath=//p[@id='next_30415']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[120]", "xpath:href"],
+        ["xpath=//div[8]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f49d179a-fb9d-439f-90d7-239006875125",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e074e83a-c821-4ebe-b6af-54ccf1d82f6d"]
+  }],
+  "urls": ["https://de.pons.com/"],
+  "plugins": []
+}

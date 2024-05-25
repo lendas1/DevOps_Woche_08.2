@@ -1,0 +1,214 @@
+{
+  "id": "484fbc22-480c-45dd-b57d-962764486358",
+  "version": "2.0",
+  "name": "DevOps_1",
+  "url": "https://www.geo-quiz.net",
+  "tests": [{
+    "id": "0740f0e3-473d-46b3-a850-e0274bbf0f3e",
+    "name": "Quiz",
+    "commands": [{
+      "id": "e548a7d6-67be-4eb3-88aa-8528a7a61da4",
+      "comment": "",
+      "command": "open",
+      "target": "/de/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c86352b2-b61f-48b9-9d3c-6cbf2a41d50d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c971cbd7-de74-49ab-838c-12a607a6ff98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(6) > .col-xs-12:nth-child(3) > .box2",
+      "targets": [
+        ["css=.row:nth-child(6) > .col-xs-12:nth-child(3) > .box2", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div/div/div[2]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/de/europaquiz.html')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e40a2a79-ec3e-4347-a970-66960afd33be",
+      "comment": "",
+      "command": "click",
+      "target": "name=level",
+      "targets": [
+        ["name=level", "name"],
+        ["css=.startquiz", "css:finder"],
+        ["xpath=//button[@name='level']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div/div/div[2]/div/div/form/div/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc3f5d48-e77c-4d35-bb4a-76d405bc6112",
+      "comment": "",
+      "command": "click",
+      "target": "id=quizkarte",
+      "targets": [
+        ["id=quizkarte", "id"],
+        ["name=quiz", "name"],
+        ["css=#quizkarte", "css:finder"],
+        ["xpath=//input[@id='quizkarte']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f476deaa-1331-48dd-9de2-178453b1c19c",
+      "comment": "",
+      "command": "click",
+      "target": "id=quizkarte",
+      "targets": [
+        ["id=quizkarte", "id"],
+        ["name=quiz", "name"],
+        ["css=#quizkarte", "css:finder"],
+        ["xpath=//input[@id='quizkarte']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "89882ee6-84f3-46a4-a16b-a1c263fe4281",
+      "comment": "",
+      "command": "click",
+      "target": "id=quizkarte",
+      "targets": [
+        ["id=quizkarte", "id"],
+        ["name=quiz", "name"],
+        ["css=#quizkarte", "css:finder"],
+        ["xpath=//input[@id='quizkarte']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c8eb350-025a-4f10-813a-22769c2cf1aa",
+      "comment": "",
+      "command": "click",
+      "target": "id=quizkarte",
+      "targets": [
+        ["id=quizkarte", "id"],
+        ["name=quiz", "name"],
+        ["css=#quizkarte", "css:finder"],
+        ["xpath=//input[@id='quizkarte']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56dbed69-f1a0-479c-ad85-9195304dd8a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=quizkarte",
+      "targets": [
+        ["id=quizkarte", "id"],
+        ["name=quiz", "name"],
+        ["css=#quizkarte", "css:finder"],
+        ["xpath=//input[@id='quizkarte']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dca21b63-0365-4cd1-b9ee-a0a7df12385f",
+      "comment": "",
+      "command": "click",
+      "target": "id=quizkarte",
+      "targets": [
+        ["id=quizkarte", "id"],
+        ["name=quiz", "name"],
+        ["css=#quizkarte", "css:finder"],
+        ["xpath=//input[@id='quizkarte']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ee25194-bfee-47ca-98cd-3d6e6a6a9d5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=quizkarte",
+      "targets": [
+        ["id=quizkarte", "id"],
+        ["name=quiz", "name"],
+        ["css=#quizkarte", "css:finder"],
+        ["xpath=//input[@id='quizkarte']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9335c744-7a53-47c5-99a4-ac317c306eba",
+      "comment": "",
+      "command": "click",
+      "target": "id=quizkarte",
+      "targets": [
+        ["id=quizkarte", "id"],
+        ["name=quiz", "name"],
+        ["css=#quizkarte", "css:finder"],
+        ["xpath=//input[@id='quizkarte']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "684a6f0c-d487-4de8-9d72-77625182acf4",
+      "comment": "",
+      "command": "click",
+      "target": "id=quizkarte",
+      "targets": [
+        ["id=quizkarte", "id"],
+        ["name=quiz", "name"],
+        ["css=#quizkarte", "css:finder"],
+        ["xpath=//input[@id='quizkarte']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c84765df-76b9-4a79-8893-5b19cc5cf22c",
+      "comment": "",
+      "command": "click",
+      "target": "id=quizkarte",
+      "targets": [
+        ["id=quizkarte", "id"],
+        ["name=quiz", "name"],
+        ["css=#quizkarte", "css:finder"],
+        ["xpath=//input[@id='quizkarte']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d7303ec-7504-4e19-bd07-afe7b151e0a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=quizkarte",
+      "targets": [
+        ["id=quizkarte", "id"],
+        ["name=quiz", "name"],
+        ["css=#quizkarte", "css:finder"],
+        ["xpath=//input[@id='quizkarte']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a075abc5-3c65-4db0-be7f-33d4d75e4453",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0740f0e3-473d-46b3-a850-e0274bbf0f3e"]
+  }],
+  "urls": ["https://www.geo-quiz.net/"],
+  "plugins": []
+}
